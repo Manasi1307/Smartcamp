@@ -36,7 +36,7 @@
 }
 
 .cc-logo-text {
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     font-weight: 600;
     background-color: #1C3557;
@@ -88,13 +88,13 @@
 }
 
 .cc-subtitle {
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 20px;
     color: #1A1A1A;
 }
 
 .cc-desc {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 35px;
 }
@@ -118,7 +118,10 @@
 
 
 .cc-start-btn:hover {
-    background-color: #16324f;
+    background-color:#081a30;
+    transform: scale(1.5);
+        
+  
 }
 
 .cc-image-box {
@@ -407,4 +410,108 @@
         margin-top: 10px;
     }
 }
+/* Students.php */
+.admin-content {
+    margin-left:245px;
+    padding: 40px;
+}
+
+.admin-student-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.admin-student-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.admin-student-search {
+    padding: 10px;
+    width: 280px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.admin-student-add-btn {
+    background: #1e3a8a;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.admin-student-table {
+    width: 100%;
+    border-collapse:collapse;
+    table-layout: fixed;
+}
+
+
+.admin-student-table th,
+.admin-student-table td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+
+}
+.admin-student-table td {
+
+}
+
+.admin-student-edit {
+
+    background: #2563eb;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.admin-student-delete {
+    background: #dc2626;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 35px;
+
+}
+.admin-student-delete:hover{
+    background-color:#950606 ;
+   
+}
+.admin-student-edit:hover{
+    background-color: #073598;
+}
+.admin-student-form-box {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.admin-student-form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.admin-student-form-box button {
+    width: 100%;
+    padding: 10px;
+    background: #1e3a8a;
+    border: none;
+    color: white;
+}
+.admin-student-table th {
+    font-weight: 600;
+    background: #f8f9fa;
+}
+
+
+
+
+/* SIDEBAR */
 

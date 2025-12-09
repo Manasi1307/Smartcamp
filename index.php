@@ -12,14 +12,14 @@
     <!-- NAVBAR -->
     <nav class="cc-navbar">
         <div class="cc-logo-section">
-            <img src="/Assets/Logo.png" class="cc-logo-icon" alt="logo">
+            <img src="./Assets/Logo.png" class="cc-logo-icon" alt="logo">
             <span class="cc-logo-text">SmartCampus</span>
         </div>
 
         <ul class="cc-nav-links">
-            <li><a href="" class="cc-active-link">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a href="./index.php" class="cc-active-link">Home</a></li>
+            <li><a href="./about.php">About</a></li>
+            <li><a href="./students.php">Contact Us</a></li>
         </ul>
     </nav>
 
@@ -33,11 +33,11 @@
                 administration, faculty, and students.
             </p>
 
-            <a  href="/login.html" class="cc-start-btn">Get Started </a></button>
+            <a  href="./login.php" class="cc-start-btn">Get Started </a></button>
         </div>
 
         <div class="cc-image-box">
-            <img src="/Assets/BackgroundHome.png" class="cc-main-image" alt="illustration">
+            <img src="./Assets/BackgroundHome.png" class="cc-main-image" alt="illustration">
         </div>
     </section>
 
